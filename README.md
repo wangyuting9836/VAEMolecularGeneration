@@ -24,10 +24,6 @@
 
 把字符组成的 SMILES 映射到 256 维潜空间的潜向量（化学指纹），然后从潜空间随机采样潜向量，对潜向量进行 decode 就能批量产出从未见过的分子。
 
-完整代码已上传 GitHub。
-
-[VAEMolecularGeneration​github.com/wangyuting9836/VAEMolecularGeneration](https://link.zhihu.com/?target=https%3A//github.com/wangyuting9836/VAEMolecularGeneration)
-
 ## 0\. 为什么选 VAE？
 
 -   **编码器** → 根据嵌入矩阵生成成 **高斯分布**
